@@ -13,6 +13,7 @@
 		EC138E7B1B58A739003E7979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC138E7A1B58A739003E7979 /* Assets.xcassets */; };
 		EC138E7E1B58A739003E7979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC138E7C1B58A739003E7979 /* LaunchScreen.storyboard */; };
 		EC138E891B58A739003E7979 /* PassportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC138E881B58A739003E7979 /* PassportTests.swift */; };
+		EC138E961B58B387003E7979 /* CountariesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC138E951B58B387003E7979 /* CountariesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EC138E841B58A739003E7979 /* PassportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC138E881B58A739003E7979 /* PassportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportTests.swift; sourceTree = "<group>"; };
 		EC138E8A1B58A739003E7979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC138E951B58B387003E7979 /* CountariesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountariesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				EC138E731B58A739003E7979 /* AppDelegate.swift */,
 				EC138E751B58A739003E7979 /* ViewController.swift */,
 				EC138E771B58A739003E7979 /* Main.storyboard */,
+				EC138E951B58B387003E7979 /* CountariesTableViewController.swift */,
 				EC138E7A1B58A739003E7979 /* Assets.xcassets */,
 				EC138E7C1B58A739003E7979 /* LaunchScreen.storyboard */,
 				EC138E7F1B58A739003E7979 /* Info.plist */,
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC138E961B58B387003E7979 /* CountariesTableViewController.swift in Sources */,
 				EC138E761B58A739003E7979 /* ViewController.swift in Sources */,
 				EC138E741B58A739003E7979 /* AppDelegate.swift in Sources */,
 			);
