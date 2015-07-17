@@ -11,7 +11,7 @@ import UIKit
 class CountariesTableViewController: UITableViewController {
     
     // MARK: Properties
-    var countries = ["Italy","Norway","England"]
+    var countries = ["Italy","Norway","England","Spain"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +37,7 @@ class CountariesTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 3
+        return countries.count
     }
 
     
@@ -46,6 +46,7 @@ class CountariesTableViewController: UITableViewController {
 
         let country = countries[indexPath.row]
         cell.textLabel?.text = country
+        cell.accessoryType =  UITableViewCellAccessoryType.Checkmark
 
         return cell
     }
