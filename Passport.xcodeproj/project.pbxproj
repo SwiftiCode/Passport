@@ -14,6 +14,8 @@
 		EC138E7E1B58A739003E7979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC138E7C1B58A739003E7979 /* LaunchScreen.storyboard */; };
 		EC138E891B58A739003E7979 /* PassportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC138E881B58A739003E7979 /* PassportTests.swift */; };
 		EC138E961B58B387003E7979 /* CountariesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC138E951B58B387003E7979 /* CountariesTableViewController.swift */; };
+		ECBB52B81B5BE98F00AD1F80 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB52B71B5BE98F00AD1F80 /* MapKit.framework */; };
+		ECBB52BA1B5BE9DE00AD1F80 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBB52B91B5BE9DE00AD1F80 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		EC138E881B58A739003E7979 /* PassportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportTests.swift; sourceTree = "<group>"; };
 		EC138E8A1B58A739003E7979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC138E951B58B387003E7979 /* CountariesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountariesTableViewController.swift; sourceTree = "<group>"; };
+		ECBB52B71B5BE98F00AD1F80 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ECBB52B91B5BE9DE00AD1F80 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Passport/MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBB52B81B5BE98F00AD1F80 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,8 @@
 		EC138E671B58A739003E7979 = {
 			isa = PBXGroup;
 			children = (
+				ECBB52B91B5BE9DE00AD1F80 /* MapViewController.swift */,
+				ECBB52B71B5BE98F00AD1F80 /* MapKit.framework */,
 				EC138E721B58A739003E7979 /* Passport */,
 				EC138E871B58A739003E7979 /* PassportTests */,
 				EC138E711B58A739003E7979 /* Products */,
@@ -148,6 +155,11 @@
 				TargetAttributes = {
 					EC138E6F1B58A739003E7979 = {
 						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EC138E831B58A739003E7979 = {
 						CreatedOnToolsVersion = 7.0;
@@ -202,6 +214,7 @@
 				EC138E961B58B387003E7979 /* CountariesTableViewController.swift in Sources */,
 				EC138E761B58A739003E7979 /* ViewController.swift in Sources */,
 				EC138E741B58A739003E7979 /* AppDelegate.swift in Sources */,
+				ECBB52BA1B5BE9DE00AD1F80 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

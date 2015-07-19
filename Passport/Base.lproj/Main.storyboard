@@ -154,10 +154,10 @@
                                 <exclude reference="gTC-Kq-Sej"/>
                                 <exclude reference="MV7-WK-W5F"/>
                                 <exclude reference="p3e-8M-JKa"/>
-                                <exclude reference="Lyg-un-Jzo"/>
-                                <exclude reference="NaT-Nh-4Xg"/>
                                 <exclude reference="EKd-10-7B9"/>
                                 <exclude reference="ZPu-or-5Zw"/>
+                                <exclude reference="Lyg-un-Jzo"/>
+                                <exclude reference="NaT-Nh-4Xg"/>
                                 <exclude reference="CBS-Rh-ZRA"/>
                                 <exclude reference="Kw1-AT-4Kz"/>
                                 <exclude reference="A78-B2-5Qb"/>
@@ -182,14 +182,14 @@
                                 <include reference="p3e-8M-JKa"/>
                                 <exclude reference="vQ6-Zy-T6f"/>
                                 <exclude reference="xKW-Vb-r7d"/>
-                                <exclude reference="FTv-52-Nh9"/>
-                                <exclude reference="Jc4-8C-UEb"/>
-                                <include reference="Lyg-un-Jzo"/>
-                                <include reference="NaT-Nh-4Xg"/>
                                 <include reference="EKd-10-7B9"/>
                                 <exclude reference="Gdb-Ap-9jk"/>
                                 <exclude reference="Wld-Ef-Hi3"/>
                                 <include reference="ZPu-or-5Zw"/>
+                                <exclude reference="FTv-52-Nh9"/>
+                                <exclude reference="Jc4-8C-UEb"/>
+                                <include reference="Lyg-un-Jzo"/>
+                                <include reference="NaT-Nh-4Xg"/>
                                 <include reference="CBS-Rh-ZRA"/>
                                 <include reference="Kw1-AT-4Kz"/>
                                 <exclude reference="PMt-nf-UNG"/>
@@ -230,11 +230,52 @@
                             <outlet property="delegate" destination="yd6-eL-6AV" id="uex-HT-6RH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Countries Visited" id="T44-2V-lb0"/>
+                    <navigationItem key="navigationItem" title="Countries Visited" id="T44-2V-lb0">
+                        <barButtonItem key="rightBarButtonItem" title="Map" id="KBX-lw-9pW">
+                            <connections>
+                                <segue destination="eRa-Ly-ZmC" kind="show" id="kid-Ys-PB1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E98-WK-b2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2011.875" y="296.83098591549293"/>
+            <point key="canvasLocation" x="1694" y="296"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="xV2-EQ-DGz">
+            <objects>
+                <viewController id="eRa-Ly-ZmC" customClass="MapViewController" customModule="Passport" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eeC-ME-Z8h"/>
+                        <viewControllerLayoutGuide type="bottom" id="DgY-wS-EWe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P5B-i0-j6Q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="byd-c0-sJy">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <connections>
+                                    <outlet property="delegate" destination="eRa-Ly-ZmC" id="etF-Y4-oCE"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="byd-c0-sJy" secondAttribute="trailing" constant="-20" id="PHc-cA-cg2"/>
+                            <constraint firstItem="DgY-wS-EWe" firstAttribute="top" secondItem="byd-c0-sJy" secondAttribute="bottom" id="Tsl-QW-QYv"/>
+                            <constraint firstItem="byd-c0-sJy" firstAttribute="top" secondItem="eeC-ME-Z8h" secondAttribute="bottom" constant="-64" id="crb-DG-Wex"/>
+                            <constraint firstItem="byd-c0-sJy" firstAttribute="leading" secondItem="P5B-i0-j6Q" secondAttribute="leadingMargin" constant="-20" id="ufe-fh-rSC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myMapView" destination="byd-c0-sJy" id="3wd-ae-SiV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z8E-jO-AHP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2391" y="296"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rfb-vs-JRu">
