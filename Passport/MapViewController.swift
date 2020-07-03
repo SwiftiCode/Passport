@@ -39,7 +39,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         myMapView.setRegion(myRegion, animated: true)
     }
 
-    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         
         let pin = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "pinIdentifier")
         pin.canShowCallout = true
