@@ -46,7 +46,7 @@ class CountariesTableViewController: UITableViewController {
 
         let country = countries[indexPath.row]
         cell.textLabel?.text = country
-        cell.accessoryType =  UITableViewCellAccessoryType.checkmark
+        cell.accessoryType =  UITableViewCell.AccessoryType.checkmark
 
         return cell
     }
