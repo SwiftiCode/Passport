@@ -2,8 +2,8 @@
 //  MapViewController.swift
 //  Passport
 //
-//  Created by Thomas Cheng on 19/7/15.
-//  Copyright © 2015 Thomas Cheng. All rights reserved.
+//  Created by Thomas Tay on 19/7/15.
+//  Copyright © 2015 Thomas Tay. All rights reserved.
 //
 
 import UIKit

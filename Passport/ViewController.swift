@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Passport
 //
-//  Created by Thomas Cheng on 17/7/15.
-//  Copyright © 2015 Thomas Cheng. All rights reserved.
+//  Created by Thomas Tay on 17/7/15.
+//  Copyright © 2015 Thomas Tay. All rights reserved.
 //
 
 import UIKit
