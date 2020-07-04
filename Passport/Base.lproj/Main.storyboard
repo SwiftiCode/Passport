@@ -18,14 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="jlX-1U-JaW">
-                                <rect key="frame" x="91" y="441" width="220" height="77"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="jlX-1U-JaW">
+                                <rect key="frame" x="60" y="441" width="294" height="77"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="tAf-up-qr2">
-                                        <rect key="frame" x="0.0" y="0.0" width="89" height="77"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="117" height="77"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YP8-WW-Ieu">
-                                                <rect key="frame" x="0.0" y="0.0" width="89" height="22.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="117" height="22.333333333333332"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="22.333333333333332" id="8YW-By-MdB"/>
                                                 </constraints>
@@ -34,13 +34,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhf-LM-4jE">
-                                                <rect key="frame" x="0.0" y="29.333333333333314" width="89" height="20.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="29.333333333333314" width="117" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nationality" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emc-9E-cki">
-                                                <rect key="frame" x="0.0" y="56.666666666666693" width="89" height="20.333333333333336"/>
+                                                <rect key="frame" x="0.0" y="56.666666666666693" width="117" height="20.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -48,22 +48,22 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Mlo-DZ-66J">
-                                        <rect key="frame" x="127" y="0.0" width="93" height="77"/>
+                                        <rect key="frame" x="177" y="0.0" width="117" height="77"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jack" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8L-8e-4s4">
-                                                <rect key="frame" x="0.0" y="0.0" width="93" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="117" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22 Jan 1970" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Qn-md-G0j">
-                                                <rect key="frame" x="0.0" y="28.333333333333314" width="93" height="20.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="28.333333333333314" width="117" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UK" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0b-XE-h2V">
-                                                <rect key="frame" x="0.0" y="56.666666666666693" width="93" height="20.333333333333336"/>
+                                                <rect key="frame" x="0.0" y="56.666666666666693" width="117" height="20.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -88,23 +88,22 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="jlX-1U-JaW" firstAttribute="top" secondItem="V52-ve-RvF" secondAttribute="bottom" constant="58" id="4DQ-2u-hwQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="PQe-jQ-InB" secondAttribute="trailing" constant="75" id="DxE-y9-r0w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jlX-1U-JaW" secondAttribute="trailing" constant="40" id="K1X-GI-EKf"/>
                             <constraint firstItem="V52-ve-RvF" firstAttribute="centerX" secondItem="PQe-jQ-InB" secondAttribute="centerX" id="L2o-Un-tRT"/>
-                            <constraint firstItem="jlX-1U-JaW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="71" id="LEY-t7-Ptf"/>
-                            <constraint firstItem="jlX-1U-JaW" firstAttribute="top" secondItem="V52-ve-RvF" secondAttribute="bottom" constant="58" id="M89-pg-YiP"/>
                             <constraint firstItem="PQe-jQ-InB" firstAttribute="top" secondItem="ghu-ex-xXI" secondAttribute="bottom" constant="32" id="VJx-1d-IcC"/>
                             <constraint firstItem="V52-ve-RvF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="74" id="a2z-ay-QHu"/>
                             <constraint firstItem="PQe-jQ-InB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="75" id="dEr-p2-QYq"/>
                             <constraint firstItem="V52-ve-RvF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fwv-1C-zAt"/>
-                            <constraint firstItem="jlX-1U-JaW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="71" id="hd1-ek-Mp2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jlX-1U-JaW" secondAttribute="trailing" constant="83" id="icv-QR-FFO"/>
+                            <constraint firstItem="jlX-1U-JaW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="s7f-99-9Rl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Passport" id="idk-1V-elL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="992.75362318840587" y="295.10869565217394"/>
+            <point key="canvasLocation" x="949" y="296"/>
         </scene>
         <!--Countries Visited-->
         <scene sceneID="r09-cr-FY7">
@@ -139,7 +138,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E98-WK-b2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1694" y="296"/>
+            <point key="canvasLocation" x="1780" y="296"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="xV2-EQ-DGz">
@@ -174,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z8E-jO-AHP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2389.8550724637685" y="295.92391304347831"/>
+            <point key="canvasLocation" x="2628" y="296"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rfb-vs-JRu">
@@ -192,7 +191,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SB1-pj-eDZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="286.875" y="296.83098591549293"/>
+            <point key="canvasLocation" x="188" y="296"/>
         </scene>
     </scenes>
     <resources>
